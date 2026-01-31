@@ -48,15 +48,14 @@ Generates a production-grade project structure:
 │     ├─ static-analysis.yml
 │     └─ release.yml
 ├─ composer.json
-├─ phpunit.xml
+├─ phpunit.xml.dist
 ├─ rector.php
 ├─ phpstan.neon
 ├─ .editorconfig
 ├─ .gitattributes
+├─ .gitignore
 ├─ .env.example
-├─ README.md
-├─ llms.txt
-└─ llms-full.txt
+└─ README.md
 ```
 
 ---
