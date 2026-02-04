@@ -1,0 +1,59 @@
+{
+  "name": "php-package-ai-skill",
+  "version": "0.1.0",
+  "title": "PHP Composer Package Architect",
+  "description": "An AI skill that designs, scaffolds, and evolves high-quality PHP Composer packages using test-first, PSR-compliant, and maintainable architecture patterns.",
+  "author": "Raphael Stolt",
+  "license": "MIT",
+  "tags": [
+    "php",
+    "composer",
+    "symfony-console",
+    "cli",
+    "testing",
+    "phpunit",
+    "static-analysis",
+    "psr",
+    "open-source"
+  ],
+  "capabilities": [
+    "Scaffold new PHP Composer packages",
+    "Design service-oriented architecture",
+    "Generate Symfony Console commands",
+    "Write PHPUnit or Pest tests",
+    "Use zenstruck/console-test for Symfony Console and PHPUnit based CLI applications",
+    "Refactor code safely",
+    "Maintain PSR-12 and PHP 8.1+ compatibility",
+    "Generate README and documentation"
+  ],
+  "inputs": {
+    "required": [
+      "package_name",
+      "vendor_name",
+      "description"
+    ],
+    "optional": [
+      "php_version",
+      "frameworks",
+      "cli_commands",
+      "features",
+      "license"
+    ]
+  },
+  "outputs": [
+    "composer.json",
+    "src/",
+    "tests/",
+    "README.md",
+    ".github/workflows/",
+    "phpunit.xml.dist",
+    "phpstan.neon"
+  ],
+  "standards": {
+    "php": "^8.1",
+    "coding": "PSR-12",
+    "testing": "PHPUnit or Pest",
+    "cli": "Symfony Console",
+    "static_analysis": "PHPStan"
+  }
+}
