@@ -1,6 +1,6 @@
 {
   "name": "php-package-ai-skill",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "title": "PHP Composer Package Architect",
   "description": "An AI skill that designs, scaffolds, and evolves high-quality PHP Composer packages using test-first, PSR-compliant, and maintainable architecture patterns.",
   "author": "Raphael Stolt",
@@ -44,12 +44,13 @@
   },
   "outputs": [
     "composer.json",
+    ".gitattributes",
     "src/",
     "tests/",
     "README.md",
     ".github/workflows/",
     "phpunit.xml.dist",
-    "phpstan.neon",
+    "phpstan.neon.dist",
     ".ai/skills/{{skill-name}}.md"
   ],
   "standards": {

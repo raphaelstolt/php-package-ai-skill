@@ -52,6 +52,7 @@ The AI must always:
 ```
 .
 ├── composer.json
+├── .gitattributes
 ├── README.md
 ├── LICENSE.md
 ├── CHANGELOG.md
@@ -85,6 +86,7 @@ The AI must:
 - Prefer immutable data structures
 - Add PHPDoc only when types cannot be expressed natively
 - For Laravel packages, use the standards defined in https://github.com/spatie/boost-spatie-guidelines
+- Exclude non dist files from the package archive via `.gitattributes`
 
 ---
 
@@ -120,6 +122,7 @@ Output:
 - Example test
 - README.md
 - LICENSE.md
+- .gitattributes
 
 Explain the architecture briefly before generating code.
 ```
