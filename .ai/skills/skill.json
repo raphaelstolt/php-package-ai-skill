@@ -1,6 +1,6 @@
 {
   "name": "php-package-ai-skill",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "title": "PHP Composer Package Architect",
   "description": "An AI skill that designs, scaffolds, and evolves high-quality PHP Composer packages using test-first, PSR-compliant, and maintainable architecture patterns.",
   "author": "Raphael Stolt",
@@ -58,6 +58,6 @@
     "coding": "PSR-12",
     "testing": "PHPUnit or PEST",
     "cli": "Symfony Console",
-    "static_analysis": "PHPStan"
+    "static_analysis": "PHPStan on level 8"
   }
 }

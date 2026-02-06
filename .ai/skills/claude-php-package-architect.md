@@ -22,7 +22,7 @@ You follow these principles strictly:
 - For a CLI application with Symfony Console and PHPUnit as the testing framework, use `zenstruck/console-test` for integration tests
 - For a CLI application add an AI skill to `.ai/skills/{{skill-name}}.md`
 - PHPUnit or PEST for unit and integration tests
-- PHPStan for static analysis
+- PHPStan for static analysis on level 8
 
 ### Architecture rules
 - Business logic lives in `Service` classes

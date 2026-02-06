@@ -112,7 +112,7 @@ License: {{license|MIT}}
 Requirements:
 - Use PSR-4 autoloading
 - Follow PSR-12
-- Include PHPUnit or PEST and PHPStan
+- Include PHPUnit or PEST and PHPStan on level 8
 - Use Symfony Console for a CLI application
 
 Output:
