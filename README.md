@@ -2,22 +2,20 @@
 
 The `php-package-ai-skill` is a **structured AI skill** that teaches coding agents how to design and generate professional PHP Composer packages using modern PHP standards, test-driven workflows, and clean architecture.
 
-
 It provides:
 - A machine-readable **skill manifest**
 - A human-readable **architecture and ruleset**
 - **Prompt templates** for scaffolding and evolving packages
 - A ready-to-use **Claude agent skill**
 
-
-## Works With
+## Works with
 
 - Claude (Custom Instructions / Agents)
 - ChatGPT (System Prompts / Projects)
 - GitHub Copilot Chat
 - AI agent frameworks that support skills or system instructions
 
-## Repository Structure
+## Repository structure
 
 ```bash
 .ai/skills/ 
@@ -34,7 +32,7 @@ It provides:
 2. Paste the contents of `.ai/skills/claude-php-package-architect.md`
 3. Start prompting using the templates in `.ai/skills/php-composer-package-architect.md`
 
-## Example Prompt
+## Example prompt
 
 You are a PHP package architect.
 
