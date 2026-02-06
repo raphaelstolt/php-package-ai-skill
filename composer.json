@@ -3,6 +3,12 @@
   "description": "An AI skill that designs, scaffolds, and evolves high-quality PHP Composer packages using test-first, PSR-compliant, and maintainable architecture patterns.",
   "type": "ai-agent-skill",
   "license": "MIT",
+  "keywords": [
+    "dev",
+    "ai",
+    "skill",
+    "php package architect skill"
+  ],
   "require": {
     "php": "^8.2"
   },
