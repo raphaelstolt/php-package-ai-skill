@@ -21,7 +21,7 @@
     "Scaffold new PHP Composer packages",
     "Design service-oriented architecture",
     "Generate Symfony Console commands",
-    "Write PHPUnit or Pest tests",
+    "Write PHPUnit or PEST tests",
     "Use zenstruck/console-test for Symfony Console and PHPUnit based CLI applications",
     "Refactor code safely",
     "Maintain PSR-12 and PHP 8.2+ compatibility",
@@ -55,7 +55,7 @@
   "standards": {
     "php": "^8.2",
     "coding": "PSR-12",
-    "testing": "PHPUnit or Pest",
+    "testing": "PHPUnit or PEST",
     "cli": "Symfony Console",
     "static_analysis": "PHPStan"
   }

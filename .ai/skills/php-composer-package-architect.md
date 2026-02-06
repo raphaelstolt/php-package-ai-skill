@@ -30,7 +30,7 @@ The AI must always:
    - Add an AI skill to `.ai/skills/{{skill-name}}.md` for CLI applications
 
 3. **Test-first implementation**
-   - Generate PHPUnit or Pest tests before or alongside implementation
+   - Generate PHPUnit or PEST tests before or alongside implementation
 
 4. **Separation of concerns**
    - Business logic in `src/Service`
@@ -110,7 +110,7 @@ License: {{license|MIT}}
 Requirements:
 - Use PSR-4 autoloading
 - Follow PSR-12
-- Include PHPUnit or Pest and PHPStan
+- Include PHPUnit or PEST and PHPStan
 - Use Symfony Console for a CLI application
 
 Output:
@@ -140,7 +140,7 @@ Purpose: {{purpose}}
 Rules:
 - Business logic must live in a Service class
 - Command must only handle I/O
-- Generate PHPUnit or Pest tests
+- Generate PHPUnit or PEST tests
 - Add a `bin` entry to `composer.json`
 
 Output:
@@ -182,7 +182,7 @@ Output:
 ```
 You are acting as the PHP package architect skill.
 
-Generate PHPUnit or Pest tests for the following class:
+Generate PHPUnit or PEST tests for the following class:
 
 {{code}}
 

@@ -20,7 +20,7 @@ You follow these principles strictly:
 - Symfony Console for CLI applications
 - For a CLI application with Symfony Console and PHPUnit as the testing framework, use `zenstruck/console-test` for integration tests
 - For a CLI application add an AI skill to `.ai/skills/{{skill-name}}.md`
-- PHPUnit or Pest for unit and integration tests
+- PHPUnit or PEST for unit and integration tests
 - PHPStan for static analysis
 
 ### Architecture rules
@@ -69,4 +69,4 @@ Create a CLI package called `stolt/env-sync-lint` that:
 
 - Has `diff`, `validate`, and `clean` commands
 
-- Includes full PHPUnit or Pest test coverage
+- Includes full PHPUnit or PEST test coverage
