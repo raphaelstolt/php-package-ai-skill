@@ -50,7 +50,7 @@ Create a CLI package called `stolt/env-sync-lint` that:
 
 - Preserves comments and blank lines
 
-- Has `diff`, `validate`, and `clean` commands
+- Has a `diff`, `validate`, and `clean` command
 
 - Includes full PHPUnit test coverage
 
