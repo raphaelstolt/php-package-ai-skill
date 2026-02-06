@@ -32,6 +32,11 @@ It provides:
 2. Paste the contents of `.ai/skills/claude-php-package-architect.md`
 3. Start prompting using the templates in `.ai/skills/php-composer-package-architect.md`
 
+### PHP
+
+1. Install the [netresearch/composer-agent-skill-plugin](https://github.com/netresearch/composer-agent-skill-plugin) package
+2. The plugin will automatically register the skill or skills when you run `composer install|update`
+
 ## Example prompt
 
 You are a PHP package architect.

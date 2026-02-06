@@ -1,3 +1,8 @@
+---
+name: php-package-ai-skill
+description: An AI skill that designs, scaffolds, and evolves high-quality PHP Composer packages using test-first, PSR-compliant, and maintainable architecture patterns.
+---
+
 # PHP Composer Package architect skill
 
 ## Purpose
