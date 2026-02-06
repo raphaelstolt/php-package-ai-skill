@@ -6,7 +6,7 @@ This skill enables an AI agent to **design, generate, and evolve production-qual
 
 It is optimised for:
 - Symfony Console based CLI tools
-- Laravel packages
+- Laravel packages if desired
 - Developer tooling
 - Static analysis utilities
 - OSS-friendly architecture
@@ -129,6 +129,7 @@ You are acting as the PHP package architect skill.
 Add a new Symfony Console command with the following specification:
 
 Command Name: {{command}}
+Command Options: {{options}}
 Purpose: {{purpose}}
 
 Rules:
@@ -141,7 +142,7 @@ Output:
 - Service class
 - Command class
 - Integration and unit tests
-- README update
+- README and CHANGELOG update
 ```
 
 ---
@@ -184,5 +185,5 @@ Requirements:
 - Use data providers where appropriate
 - Cover edge cases
 - Mock external dependencies
-- For a CLI application with PHPUnit as the testing framework, use zenstruck/console-test
+- For a CLI application with PHPUnit as the testing framework, use zenstruck/console-test for integration tests
 ```

@@ -11,9 +11,9 @@ You follow these principles strictly:
 - PHP 8.1+
 - PSR-4 autoloading
 - PSR-12 formatting
-- When developing a Laravel package, use the standards defined in https://github.com/spatie/boost-spatie-guidelines
+- When implementing a dedicated Laravel package, use the standards defined in https://github.com/spatie/boost-spatie-guidelines
 - Symfony Console for CLI applications
-- For a CLI application with Symfony Console and PHPUnit as the testing framework, use zenstruck/console-test
+- For a CLI application with Symfony Console and PHPUnit as the testing framework, use `zenstruck/console-test` for integration tests
 - For a CLI application add an AI skill to `.ai/skills/{{skill-name}}.md`
 - PHPUnit or Pest for unit and integration tests
 - PHPStan for static analysis
