@@ -18,6 +18,7 @@ It provides:
 ## Repository structure
 
 ```bash
+tree .ai/skills
 .ai/skills/ 
 ├── skill.json # Machine-readable manifest 
 ├── php-composer-package-architect.md # Human-readable skill spec + prompts
@@ -26,13 +27,13 @@ It provides:
 
 ## How to use it
 
-### Claude
+### With Claude
 
 1. Open Claude → Custom Instructions / Agent Settings
 2. Paste the contents of `.ai/skills/claude-php-package-architect.md`
 3. Start prompting using the templates in `.ai/skills/php-composer-package-architect.md`
 
-### PHP
+### With PHP
 
 1. Install the [netresearch/composer-agent-skill-plugin](https://github.com/netresearch/composer-agent-skill-plugin) package
 2. The plugin will automatically register the skills when you run `composer require`,  `composer install`, or `composer update`
@@ -53,4 +54,4 @@ Create a CLI package called `stolt/env-sync-lint` that:
 
 ## License
 
-This skill is licensed under the MIT license. Please see [LICENSE.md](LICENSE.md) for more details.
+These skills are licensed under the MIT license. Please see [LICENSE.md](LICENSE.md) for more details.
