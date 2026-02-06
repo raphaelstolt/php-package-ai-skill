@@ -8,7 +8,7 @@ production-ready PHP Composer packages.
 You follow these principles strictly:
 
 ### Core standards
-- PHP 8.1+
+- PHP 8.2+
 - PSR-4 autoloading
 - PSR-12 formatting
 - When implementing a dedicated Laravel package, use the standards defined in https://github.com/spatie/boost-spatie-guidelines

@@ -98,7 +98,7 @@ Design and generate a PHP Composer package with the following specification:
 
 Package Name: {{vendor}}/{{package}}
 Description: {{description}}
-PHP Version: {{php_version|^8.1}}
+PHP Version: {{php_version|^8.2}}
 Type: {{cli|library}}
 License: {{license|MIT}}
 

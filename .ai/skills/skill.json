@@ -24,7 +24,7 @@
     "Write PHPUnit or Pest tests",
     "Use zenstruck/console-test for Symfony Console and PHPUnit based CLI applications",
     "Refactor code safely",
-    "Maintain PSR-12 and PHP 8.1+ compatibility",
+    "Maintain PSR-12 and PHP 8.2+ compatibility",
     "Generate README, CHANGELOG and documentation",
     "Add an AI skill to `.ai/skills/{{skill-name}}.md` for CLI applications"
   ],
@@ -53,7 +53,7 @@
     ".ai/skills/{{skill-name}}.md"
   ],
   "standards": {
-    "php": "^8.1",
+    "php": "^8.2",
     "coding": "PSR-12",
     "testing": "PHPUnit or Pest",
     "cli": "Symfony Console",
