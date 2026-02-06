@@ -1,6 +1,12 @@
 {
   "name": "stolt/php-package-ai-skill",
   "description": "An AI skill that designs, scaffolds, and evolves high-quality PHP Composer packages using test-first, PSR-compliant, and maintainable architecture patterns.",
+  "authors": [
+    {
+      "name": "Raphael Stolt",
+      "email": "raphael.stolt@gmail.com"
+    }
+  ],
   "type": "ai-agent-skill",
   "license": "MIT",
   "keywords": [
