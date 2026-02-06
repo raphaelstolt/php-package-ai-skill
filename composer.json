@@ -4,8 +4,7 @@
   "type": "ai-agent-skill",
   "license": "MIT",
   "require": {
-    "php": "^8.2",
-    "netresearch/composer-agent-skill-plugin": "^1.1"
+    "php": "^8.2"
   },
   "config": {
     "allow-plugins": {
@@ -17,5 +16,8 @@
       ".ai/skills/claude-php-package-architect.md",
       ".ai/skills/php-composer-package-architect.md"
     ]
+  },
+  "require-dev": {
+    "netresearch/composer-agent-skill-plugin": "^1.1"
   }
 }
