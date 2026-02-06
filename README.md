@@ -35,8 +35,10 @@ tree .ai/skills
 
 ### With PHP
 
-1. Install the [netresearch/composer-agent-skill-plugin](https://github.com/netresearch/composer-agent-skill-plugin) package
-2. The plugin will automatically register the skills when you run `composer require`,  `composer install`, or `composer update`
+```bash
+composer require --dev stolt/php-package-ai-skill
+composer require --dev netresearch/composer-agent-skill-plugin
+```
 
 ## Example prompt
 
