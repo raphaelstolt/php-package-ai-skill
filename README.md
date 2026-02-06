@@ -35,7 +35,7 @@ It provides:
 ### PHP
 
 1. Install the [netresearch/composer-agent-skill-plugin](https://github.com/netresearch/composer-agent-skill-plugin) package
-2. The plugin will automatically register the skill or skills when you run `composer install|update`
+2. The plugin will automatically register the skills when you run `composer require`,  `composer install`, or `composer update`
 
 ## Example prompt
 
