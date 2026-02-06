@@ -1,5 +1,5 @@
 ---
-name: php-package-ai-skill
+name: claude-php-package-architect-skill
 description: An AI skill that designs, scaffolds, and evolves high-quality PHP Composer packages using test-first, PSR-compliant, and maintainable architecture patterns.
 ---
 
