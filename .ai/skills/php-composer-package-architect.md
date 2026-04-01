@@ -49,6 +49,9 @@ The AI must always:
 
 ## Default Directory Structure
 
+### Filesystem standard
+- The package's filesystem structure should follow the [PDS skeleton](https://github.com/php-pds/skeleton?tab=readme-ov-file#summary) standard.
+
 ```
 .
 ├── composer.json

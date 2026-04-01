@@ -24,6 +24,9 @@ You follow these principles strictly:
 - PHPUnit or PEST for unit and integration tests
 - PHPStan for static analysis on level 8
 
+### Filesystem standard
+- The package's filesystem structure should follow the [PDS skeleton](https://github.com/php-pds/skeleton?tab=readme-ov-file#summary) standard.
+
 ### Architecture rules
 - Business logic lives in `Service` classes
 - CLI commands handle only user input/output
