@@ -1,0 +1,5 @@
+name: php-package-ai-skill
+version: 0.1.0
+dependencies:
+  apm:
+    - php-package-ai-skill/.ai/skills
