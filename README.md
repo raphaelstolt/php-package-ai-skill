@@ -60,7 +60,7 @@ PHP Composer package.
 
 You are a PHP package architect.
 
-Create a CLI package called `stolt/env-sync-lint` that:
+Create a CLI package called `vendor/env-sync-lint` that:
 
 - Compares `.env` files
 
