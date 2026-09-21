@@ -40,6 +40,22 @@ composer require --dev stolt/php-package-ai-skill
 composer require --dev netresearch/composer-agent-skill-plugin
 ```
 
+## Using with php-package-template
+
+Want to build a PHP Composer package with AI while starting from a consistent, reusable project structure?
+
+Combine [`php-package-ai-skill`](https://github.com/raphaelstolt/php-package-ai-skill) with [`php-package-template`](https://github.com/raphaelstolt/php-package-template)
+to give your AI coding agent both a package architecture skill and a ready-to-use PHP package foundation.
+
+* **php-package-template** provides the initial package structure and project conventions.
+* **php-package-ai-skill** guides your AI coding agent through package design, implementation, testing, and quality practices.
+
+Start by creating a repository from [`php-package-template`](https://github.com/raphaelstolt/php-package-template),
+then use the `php-package-ai-skill` instructions to guide your AI agent in implementing and evolving the package.
+
+This combination helps you move from a reusable package skeleton to a thoughtfully designed, tested, and maintainable
+PHP Composer package.
+
 ## Example prompt
 
 You are a PHP package architect.
