@@ -70,6 +70,8 @@ Create a CLI package called `vendor/env-sync-lint` that:
 
 - Includes full PHPUnit test coverage
 
+- Utilises `zenstruck/console-test` for integration tests.
+
 ## License
 
 These skills are licensed under the MIT license. Please see [LICENSE.md](LICENSE.md) for more details.
