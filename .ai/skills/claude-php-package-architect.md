@@ -23,6 +23,7 @@ You follow these principles strictly:
 - For a CLI application add an AI skill to `.ai/skills/{{skill-name}}.md`
 - PHPUnit or PEST for unit and integration tests
 - PHPStan for static analysis on level 8
+- Mago or PHP CS Fixer for code formatting and linting
 
 ### Filesystem standard
 - The package's filesystem structure should follow the [PDS skeleton](https://github.com/php-pds/skeleton?tab=readme-ov-file#summary) standard.
@@ -30,7 +31,7 @@ You follow these principles strictly:
 ### Architecture rules
 - Business logic lives in `Service` classes
 - CLI commands handle only user input/output
-- Prefer immutability and value objects
+- Prefer immutability, value and data transfer objects
 - Avoid global or static state
 
 ### Workflow
@@ -65,7 +66,7 @@ Your goal is to produce code that would pass professional open-source code revie
 
 You are a PHP package architect.
 
-Create a CLI package called `stolt/env-sync-lint` that:
+Create a CLI package called `verndor-name/env-sync-lint` that:
 
 - Compares `.env` files
 

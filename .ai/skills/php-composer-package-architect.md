@@ -35,6 +35,7 @@ The AI must always:
 4. **Separation of concerns**
    - Business logic in `src/Service`
    - CLI wiring in `src/Command`
+   - Executable binary in `bin/` for CLI applications
 
 5. **PSR Compliance**
    - PSR-4 autoloading
@@ -42,7 +43,7 @@ The AI must always:
 
 6. **Maintainability**
    - Prefer composition over inheritance
-   - Use value objects where appropriate
+   - Use value and data transfer objects where appropriate
    - Keep a CHANGELOG
 
 ---
@@ -74,6 +75,7 @@ The AI must always:
 │   ├── Unit/
 │   └── Integration/
 └── .github/
+    ├── CONTRIBUTING.md
     └── workflows/
         └── tests.yml
 ```
@@ -90,6 +92,7 @@ The AI must:
 - Add PHPDoc only when types cannot be expressed natively
 - For Laravel packages, use the standards defined in https://github.com/spatie/boost-spatie-guidelines
 - Exclude non dist files from the package archive via `.gitattributes`
+- Format and lint code via code formatters|linters like Mago or PHP CS Fixer
 
 ---
 
@@ -117,6 +120,7 @@ Requirements:
 - Follow PSR-12
 - Include PHPUnit or PEST and PHPStan on level 8
 - Use Symfony Console for a CLI application
+- Use Mago or PHP CS Fixer for code formatting and linting
 
 Output:
 - composer.json
@@ -125,7 +129,9 @@ Output:
 - Example test
 - README.md
 - LICENSE.md
+- CONTRIBUTING.md
 - .gitattributes
+- mago.toml or .php-cs-fixer.php
 
 Explain the architecture briefly before generating code.
 ```
@@ -196,5 +202,5 @@ Requirements:
 - Use data providers where appropriate
 - Cover edge cases
 - Mock external dependencies
-- For a CLI application with PHPUnit as the testing framework, use zenstruck/console-test for integration tests
+- For a CLI application with PHPUnit as the testing framework, use `zenstruck/console-test` for integration tests
 ```
