@@ -120,6 +120,7 @@ Design and generate a PHP Composer package with the following specification:
 
 Package Name: {{vendor}}/{{package}}
 Description: {{description}}
+Keywords:  {{a list of package describing keywords}}
 PHP Version: {{php_version|^8.2}}
 Type: {{cli|library}}
 License: {{license|MIT}}
@@ -130,6 +131,7 @@ Requirements:
 - Include PHPUnit or PEST and PHPStan on level 8
 - Use Symfony Console for a CLI application
 - Use Mago or PHP CS Fixer for code formatting and linting
+- Pass `composer validate --strict`
 
 Output:
 - composer.json
