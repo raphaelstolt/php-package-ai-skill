@@ -94,6 +94,15 @@ The AI must:
 - Exclude non dist files from the package archive via `.gitattributes`
 - Format and lint code via code formatters|linters like Mago or PHP CS Fixer
 
+## Distribution rules
+
+The Composer package should only ship or contain required files. This can be achieved via a `.gitattributes` files. An
+negated export-ignore approach is to be preferred.
+
+In case the Composer package is a CLI application, its version should be in sync with the Git tag and changelog entry.
+
+The Composer package declaration should be validated via `composer validate --strict`.
+
 ---
 
 # Prompt templates
