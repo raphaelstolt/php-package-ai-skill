@@ -36,8 +36,8 @@ tree .ai/skills
 ### With PHP
 
 ```bash
-composer require --dev stolt/php-package-ai-skill
 composer require --dev netresearch/composer-agent-skill-plugin
+composer require --dev stolt/php-package-ai-skill
 ```
 
 ## Using with php-package-template
