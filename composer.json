@@ -1,6 +1,6 @@
 {
   "name": "stolt/php-package-ai-skill",
-  "description": "AI skills to generate a PHP package.",
+  "description": "AI skills to generate a high quality PHP package.",
   "authors": [
     {
       "name": "Raphael Stolt",
