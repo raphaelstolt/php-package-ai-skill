@@ -3,7 +3,7 @@ name: php-composer-package-architect-skill
 description: An AI skill that designs, scaffolds, and evolves high-quality PHP Composer packages using test-first, PSR-compliant, and maintainable architecture patterns.
 ---
 
-# PHP Composer Package architect skill
+# PHP Composer package architect skill
 
 ## Purpose
 
@@ -16,7 +16,67 @@ It is optimised for:
 - Static analysis utilities
 - OSS-friendly architecture
 
----
+## Project context discovery
+
+Before implementing or extending a PHP package, inspect the existing project context before making implementation
+decisions.
+
+### Read the README
+
+If a `README.md` exists, read it before implementing the requested feature.
+
+Use it to understand:
+
+* the package's purpose and scope
+* documented features and supported use cases
+* public APIs, CLI commands, and configuration
+* documented behaviour and constraints
+* terminology used by the project
+* installation and usage patterns
+* examples that should remain valid
+* documented development or contribution workflows
+
+Treat the README as an important source of project intent. Do not introduce behaviour that contradicts documented
+functionality without first considering whether the README or implementation needs to be updated.
+
+### Inspect Composer development dependencies
+
+Read the `require-dev` section of `composer.json` before choosing development tools or adding new dependencies.
+
+Use existing development dependencies to identify the project's established tooling, such as:
+
+* PHPUnit or another test framework
+* PHPStan, Psalm, or other static-analysis tools
+* PHP-CS-Fixer, PHP_CodeSniffer, Pint, or other coding-standard tools
+* Rector or migration/refactoring tools
+* Infection or other mutation-testing tools
+* documentation or API-generation tools
+* CLI/testing utilities
+* project-specific development plugins
+
+Prefer existing project tooling over introducing an additional tool when it can reasonably solve the task.
+
+For example, if the project already uses PHPUnit, write tests using PHPUnit rather than introducing another test framework.
+If a static analyser or coding-standard tool is already configured, follow its existing configuration and conventions.
+
+### Preserve existing project conventions
+
+The goal is to extend the project consistently, not to impose a generic toolchain or architecture.
+
+Before implementing:
+
+1. Read `README.md`, if present.
+2. Read `composer.json`, including `require-dev`, scripts, and relevant `extra` configuration.
+3. Inspect existing tests and representative source files.
+4. Identify the project's established tools, conventions, and architecture.
+5. Reuse those conventions when implementing the requested change.
+
+Do not add a new dependency, framework, testing library, or development tool merely because the skill recommends it.
+The existing project context takes precedence where it is compatible with the requested feature and the package's stated
+goals.
+
+If the README, `composer.json`, source code, and tests appear to disagree, investigate the discrepancy before making
+assumptions.
 
 ## Architectural principles
 
@@ -46,9 +106,7 @@ The AI must always:
    - Use value and data transfer objects where appropriate
    - Keep a CHANGELOG
 
----
-
-## Default Directory Structure
+## Default directory structure
 
 ### Filesystem standard
 - The package's filesystem structure should follow the [PDS skeleton](https://github.com/php-pds/skeleton?tab=readme-ov-file#summary) standard.
@@ -111,7 +169,7 @@ These are **copy-paste ready prompts** that work with Claude, ChatGPT, Copilot C
 
 ---
 
-## Template A — New Package scaffold
+## Template A — New package scaffold
 
 ```
 You are acting as the PHP package architect skill.
